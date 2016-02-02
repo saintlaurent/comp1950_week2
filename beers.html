@@ -3,45 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Beers</title>
-    <link href="reset.css" rel="stylesheet" title="reset" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+    <link href="style.css" type="text/css" rel="stylesheet" title="Main Styles" media="screen">
 </head>
 <body>
-<nav>
-    <a href="home.html">Home</a>
-    <a href="history.html">History</a>
-    <a href="beers.html">Beers</a>
-    <a href="contact.html">Contact</a>
-</nav>
+<header class="clearfix">
+    <h1>Home Brew</h1>
+    <div class="clearfix"></div>
+    <nav class="clearfix">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="history.html">History</a> </li>
+            <li><a href="beers.html">Beers</a> </li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 <main>
-    <h1>Our Seasonal Beers</h1>
-    <div class="content">
+    <section>
+    <h2>Our Seasonal Beers</h2>
+        <div class="content clear">
 
-        <h3>Sunshine</h3>
-        <figure class="featured">
-            <img src="http://www.meepanda.com/wp-content/uploads/2014/12/craftbeer.jpg" alt="Picture of craft beer">
-            <figcaption>
-                <p>Born of the sun this unfiltered white ale has long been praised by the Belgians and revered by the French. Our dreamy Blanche beer is silky smooth and subspiced with orange peel, coriander and anise seed to pair perfectly with the golden days of summer.</p>
-            </figcaption>
-        </figure>
+            <h3>Sunshine</h3>
+            <figure class="featured">
+                <img class="beers" src="images/beer1.jpg" alt="Picture of craft beer">
+                <figcaption>
+                    <p>Born of the sun this unfiltered white ale has long been praised by the Belgians and revered by the French. Our dreamy Blanche beer is silky smooth and subspiced with orange peel, coriander and anise seed to pair perfectly with the golden days of summer.</p>
+                </figcaption>
+            </figure>
 
-        <h3>Darkness</h3>
-        <figure>
-            <img src="http://www.grbj.com/ext/resources/images/Food-Serv-Agricutlure/iStock_Beer.jpg?1365541645" alt="Picture of craft beer">
-            <figcaption>
-                <p>This is a full flavoured beer integrated with a distinct floral hop which gives it a quality unique to our Pacific Northwest surroundings. </p>
-            </figcaption>
-        </figure>
+            <h3>Darkness</h3>
+            <figure>
+                <img class="beers" src="images/beer2.jpg" alt="Picture of craft beer">
+                <figcaption>
+                    <p>This is a full flavoured beer integrated with a distinct floral hop which gives it a quality unique to our Pacific Northwest surroundings. </p>
+                </figcaption>
+            </figure>
 
-        <h3>Ocean</h3>
-        <figure>
-            <img src="http://edibleinkpr.com/blog/wp-content/uploads/2012/05/craft-beers-590-STOCK.jpg" alt="Picture of craft beer">
-            <figcaption>
-                <p> While most equate heaviness with flavour this Schwarzbier strives to bring tantalizing taste beyond the usual weight.</p>
-            </figcaption>
-        </figure>
-    </div>
+            <h3>Ocean</h3>
+            <figure>
+                <img class="beers" src="images/beer3.jpg" alt="Picture of craft beer">
+                <figcaption>
+                    <p> While most equate heaviness with flavour this Schwarzbier strives to bring tantalizing taste beyond the usual weight.</p>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
 </main>
-<hr>
+
 <footer>
     &copy; Home Brew <a href="http://theoatmeal.com/comics/baby_vs_cat">Twitter</a>
     <a href="http://validator.w3.org/check?uri=referer">HTML5 Validator</a>

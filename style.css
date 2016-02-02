@@ -28,9 +28,13 @@ img {
     height: auto;
 }
 
+img.beers {
+    border-radius: 50%;
+    float: left;
+}
 figure {
     float: left;
-    margin: 30px 10px;
+    margin: 10px 0px;
 }
 
 
@@ -47,9 +51,8 @@ header {
     color: #35262D;
 }
 section {
-    width: 90%;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 60px 25px;
     clear: both;
     text-align: center;
 }
@@ -95,6 +98,28 @@ h1 {
     transform: translateY(-50%);
     font-size: 80px;
 }
+h2{
+     font-size: 36px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.25em;
+}
+
+iframe {
+    max-width: 100%;
+    margin: 0 10px;
+}
+.content {
+    margin-top: 20px;
+}
+.content p {
+    float: left;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
 footer {
     position:fixed;
@@ -109,6 +134,17 @@ footer {
     main {
         margin: auto;
         width: 80%;
+    }
+
+    .content p {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    img.beers {
+        margin: auto;
+        width: 250px;
+        float: none;
     }
 }
 
