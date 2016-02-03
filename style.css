@@ -72,6 +72,9 @@ h3 {
     margin-top: 20px;
 }
 
+.le_beer p {
+    width: 70%;
+}
 /* Figures and Images
 �������������������������������������������������� */
 img {
@@ -98,6 +101,7 @@ img.history{
 figure {
     float: left;
     margin: 10px 0px;
+    widows: 100%;
 }
 
 
