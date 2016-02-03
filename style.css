@@ -193,7 +193,7 @@ footer {
 
 /* Screens less than 600px
 �������������������������������������������������� */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 360px) {
     main {
         margin: auto;
         width: 100%;
