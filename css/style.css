@@ -64,7 +64,7 @@ h3 {
 }
 .content p {
     float: left;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
@@ -72,9 +72,10 @@ h3 {
     margin-top: 20px;
 }
 
-.le_beer p {
-    width: 70%;
+.title {
+    text-align: center;
 }
+
 /* Figures and Images
 �������������������������������������������������� */
 img {

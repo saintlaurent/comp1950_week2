@@ -4,55 +4,68 @@
     <meta charset="UTF-8">
     <title>Beers</title>
     <link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="skeleton/skeleton.css" rel="stylesheet" >
     <link href="css/style.css" type="text/css" rel="stylesheet" title="Main Styles" media="screen">
 </head>
 <body>
-<header class="clearfix">
-    <h1>Home Brew</h1>
-    <div class="clearfix"></div>
-    <nav class="clearfix">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="history.html">History</a> </li>
-            <li><a href="beers.html">Beers</a> </li>
-            <li> <a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<header>
+    <div class="row"><h1 class="twelve columns">Home Brew</h1></div>
+    <div class="row">
+        <nav class="offset-by-seven one-half column">
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a> </li>
+                <li><a href="beers.html">Beers</a> </li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
     <section>
-    <h2>Our Seasonal Beers</h2>
-        <div class="content clear">
-
-            <div class="le_beer clear">
-            <h3>Sunshine</h3>
-            <figure class="featured">
-                <img class="beers" src="images/beer1.jpg" alt="Picture of craft beer">
-                <figcaption>
-                    <p>Born of the sun this unfiltered white ale has long been praised by the Belgians and revered by the French. Our dreamy Blanche beer is silky smooth and subspiced with orange peel, coriander and anise seed to pair perfectly with the golden days of summer.</p>
-                <div class="clear"></div>
-                </figcaption>
-            </figure>
+    <h2 class="row title">Our Seasonal Beers</h2>
+        <div class="content container">
+            <div class="le_beer row">
+                <div class="one-third column">
+                    <h3>Sunshine</h3>
+                    <figure class="featured">
+                        <img class="beers" src="images/beer1.jpg" alt="Picture of craft beer">
+                    </figure>
+                </div> <!-- /.one-third column -->
+                <div class="two-thirds column">
+                        <p>Born of the sun this unfiltered white ale has long been praised by the Belgians and revered by the French.
+                            Our dreamy Blanche beer is silky smooth and subspiced with orange peel, coriander and anise seed to pair perfectly
+                            with the golden days of summer.
+                        </p>
+                </div>
             </div>
 
-            <div class="le_beer clear">
-            <h3>Darkness</h3>
-            <figure class="featured">
-                <img class="beers" src="images/beer2.jpg" alt="Picture of craft beer">
-                <figcaption>
-                    <p>This is a full flavoured beer integrated with a distinct floral hop which gives it a quality unique to our Pacific Northwest surroundings. </p>
-                </figcaption>
-            </figure>
+            <div class="le_beer row">
+                <div class="one-third column">
+                    <h3>Darkness</h3>
+                    <figure class="featured">
+                        <img class="beers" src="images/beer2.jpg" alt="Picture of craft beer">
+                    </figure>
+                </div>
+                <div class="two-thirds column">
+                    <p>This is a full flavoured beer integrated with a distinct floral
+                        hop which gives it a quality unique to our Pacific Northwest surroundings. </p>
+                </div>
             </div>
 
-            <div class="le_beer clear">
-            <h3>Ocean</h3>
-            <figure class="featured">
-                <img class="beers" src="images/beer3.jpg" alt="Picture of craft beer">
-                <figcaption>
+            <div class="le_beer row">
+                <div class="one-third column">
+                    <h3>Ocean</h3>
+                    <figure class="featured">
+                        <img class="beers" src="images/beer3.jpg" alt="Picture of craft beer">
+                    </figure>
+                </div>
+                <div class="two-thirds column">
                     <p> While most equate heaviness with flavour this Schwarzbier strives to bring tantalizing taste beyond the usual weight.</p>
-                </figcaption>
-            </figure>
+                </div>
             </div>
 
         </div>
