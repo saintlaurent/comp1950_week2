@@ -33,9 +33,7 @@
 </header>
 <main>
 <div class="container">
-    <div class="content row">
-        <h2 class="row title">Indulge in small-batch premium craft beer</h2>
-    </div>
+    <h2 class="content row title">Indulge in small-batch premium craft beer</h2>
     <div class="row content">
         <div class="one-half column">
 
@@ -56,9 +54,6 @@
 </div><!-- /.container -->
 </main>
 
-<footer>
-    &copy; Home Brew <a href="http://theoatmeal.com/comics/baby_vs_cat">Twitter</a>
-    <a href="http://validator.w3.org/check?uri=referer">HTML5 Validator</a>
-</footer>
+<!--#include file="includes/footer.inc" -->
 </body>
 </html>
